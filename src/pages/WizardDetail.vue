@@ -128,15 +128,8 @@ function back() {
   router.push("/cohorts/wizards");
 }
 function start() {
-  const target = wizard.value?.url?.trim();
-  if (!target) {
-    console.warn("Wizard URL is not defined for this cohort.");
-    return;
-  }
-
-  const hasProtocol = /^https?:\/\//i.test(target);
-  const href = hasProtocol ? target : `https://${target.replace(/^\/+/, "")}`;
-  window.open(href, "_blank", "noopener");
+  const target = router.resolve("/cohorts/open");
+  window.open(target.href, "_blank", "noopener");
 }
 
 </script>
