@@ -98,7 +98,7 @@
                     size="small"
                     class="d4l-btn-primary"
                     variant="flat"
-                    @click="quickStart(item.id)"
+                    @click="start"
                   >
                     {{ t.listActions.openCohort }}
                   </v-btn>
@@ -167,9 +167,9 @@ function openWizard(id: string) {
   router.push(`/cohorts/wizards/${encodeURIComponent(id)}`);
 }
 
-function quickStart(id: string) {
-  // placeholder for an actual workflow action
-  alert(`Start Analysis for ${id} (placeholder)`);
+function start() {
+  const target = router.resolve("/cohorts/open");
+  window.open(target.href, "_blank", "noopener");
 }
 
 function createCustom() {
