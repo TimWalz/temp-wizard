@@ -1,0 +1,108 @@
+/* Base typography */
+.v-application {
+  color: var(--color-neutral);
+  font-size: var(--font-size-m);
+}
+
+/* Headlines */
+.v-application .text-h1,
+.v-application .text-h2,
+.v-application .text-h3,
+.v-application .text-h4,
+.v-application .text-h5,
+.v-application .text-h6 {
+  color: var(--color-primary) !important;
+  font-weight: var(--font-bold);
+}
+
+/* Regular text */
+.v-application .text-body-1,
+.v-application .text-body-2,
+.v-application .text-caption,
+.v-application .text-medium-emphasis {
+  color: var(--color-neutral) !important;
+  opacity: 1 !important;
+}
+
+/* Toolbar */
+.v-toolbar {
+  background-color: var(--color-support-blue-light) !important;
+}
+
+/* Cards */
+.v-card {
+  border: 1px solid var(--color-neutral-lighter);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  border-radius: var(--border-radius-s) !important;
+}
+
+.v-card--variant-tonal .v-card__underlay {
+  background-color: var(--color-white) !important;
+}
+
+/* Chips */
+.v-chip {
+  background: var(--color-primary) !important;
+}
+
+.v-chip__content {
+  color: var(--color-white) !important;
+}
+
+/* Tabs */
+.v-tabs .v-tab {
+  color: var(--color-neutral) !important;
+  text-transform: none;
+  font-weight: var(--font-bold);
+}
+
+.v-tabs .v-tab--selected {
+  color: var(--color-primary) !important;
+}
+
+.v-tabs .v-tab__slider {
+  background: var(--color-primary) !important;
+  height: 3px;
+}
+
+/* Buttons */
+.v-btn.d4l-btn-primary {
+  background: var(--color-primary) !important;
+  color: var(--color-white) !important;
+  border: 1px solid var(--color-primary) !important;
+  border-radius: var(--border-radius-s) !important;
+  text-transform: none;
+  box-shadow: none;
+}
+
+.v-btn.d4l-btn-primary:hover {
+  background: var(--color-white) !important;
+  color: var(--color-primary) !important;
+  border: 1px solid var(--color-primary) !important;
+}
+
+.v-btn.d4l-btn-secondary {
+  background: var(--color-white) !important;
+  color: var(--color-primary) !important;
+  border: 1px solid var(--color-primary) !important;
+  border-radius: var(--border-radius-s) !important;
+  text-transform: none;
+  box-shadow: none;
+}
+
+.v-btn.d4l-btn-secondary:hover {
+  background: var(--color-primary-lightest) !important;
+  color: var(--color-primary) !important;
+  border: 1px solid var(--color-primary) !important;
+}
+
+/* View toggle */
+.d4l-view-toggle {
+  border: 1px solid var(--color-neutral-lighter);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.d4l-view-toggle .v-btn {
+  border-radius: 0 !important;
+}

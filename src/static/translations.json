@@ -1,0 +1,47 @@
+{
+  "common": {
+    "openCohort": "Open Cohort",
+    "back": "Back",
+    "backToCohorts": "Back to Cohorts",
+    "wizardNotFound": "Wizard not found."
+  },
+  "wizardDetail": {
+    "breadcrumbPrefix": "Cohort Explorer /",
+    "cohortDemographicsTitle": "Cohort Demographics",
+    "ageRangeLabel": "Age Range",
+    "gendersLabel": "Genders",
+    "additionalFiltersLabel": "Additional Filters",
+    "additionalFiltersDescription": "Key indicators for specific cohort selection.",
+    "medicalCodesTitle": "Medical Codes & Procedures",
+    "icdCodesTitle": "Included ICD-Codes",
+    "icdCodesSubtitle": "Codes grouped by category for clarity:",
+    "procedureCodesTitle": "Procedure Codes",
+    "procedureCodesSubtitle": "Common medical procedures related to the cohort:"
+  },
+  "wizardSelect": {
+    "title": "Cohort Explorer",
+    "subtitle": "Browse predefined scenarios and filter by disease area and study type.",
+    "viewCards": "Cards",
+    "viewList": "List",
+    "customScenarioTitle": "Custom Scenario",
+    "customScenarioSubtitle": "Create a new cohort from scratch",
+    "listHeaders": {
+      "id": "ID",
+      "title": "Title",
+      "primaryLabel": "Primary Label",
+      "otherLabels": "Other Labels"
+    },
+    "listActions": {
+      "viewDetails": "View details",
+      "openCohort": "Open cohort"
+    }
+  },
+  "filterBar": {
+    "searchPlaceholder": "Search scenarios by title, ID, or disease area (e.g., 'Diabetes', 'Oncology')...",
+    "filterBy": "Filter by:",
+    "diseaseAreaLabel": "Disease Area",
+    "studyTypeLabel": "Study Type",
+    "phaseLabel": "Phase",
+    "resetFilters": "Reset Filters"
+  }
+}
